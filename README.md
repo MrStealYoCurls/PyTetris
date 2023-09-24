@@ -41,5 +41,29 @@ Shows the next shape(s) that will fall.
 ## How to Play
 
 1. Clone or download this repository.
-2. Navigate to the directory and run the game script.
-3. Enjoy and try to beat your high score!
+   
+   Open a terminal and navigate to the location where you want to save the file.
+   
+   Then run:
+   ```bash
+   git clone https://github.com/MrStealYoCurls/PyTetris.git
+   ```
+3. Install the Pygame library using:
+   ### Windows
+    ```bash
+    pip install pygame-ce
+    ```
+    ### Mac
+    ```bash
+    pip3 install pygame-ce
+    ```
+4. Navigate to the directory and run the game script.
+   ### Windows
+    ```bash
+    python PyTetris.py
+    ```
+    ### Mac
+    ```bash
+    python3 PyTetris.py
+    ```
+5. Enjoy and try to beat your high score!
